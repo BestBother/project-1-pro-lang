@@ -1,0 +1,15 @@
+{
+  "jest": {
+    "testEnvironment": "node",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/.vscode/",
+      "<rootDir>/anaconda3/",
+      "<rootDir>/AppData/",
+      "<rootDir>/Jupyter/"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[tj]s?(x)"
+    ]
+  }
+}
